@@ -11,8 +11,29 @@ nav{
 div{
     width: 33.3%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 img{
     max-width: 100%;
     height: 60px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14pt;
+}
+li a{
+    color: white;
+}
+.signInLink{
+    text-decoration: none;
+    background-color: red;
+    color: black;
+    padding: 4px 15px;
+    border-radius: 25px;
 }
